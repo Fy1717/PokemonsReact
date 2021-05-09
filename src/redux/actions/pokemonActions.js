@@ -1,15 +1,15 @@
 import * as actionTypes from "./actionTypes"
 import axios from 'axios'
 
-export function changeCategory (category) {
-    return {type: actionTypes.CHANGE_CATEGORY, payload: category}
+export function changePokemon (pokemon) {
+    return {type: actionTypes.CHANGE_POKEMON, payload: pokemon}
 }
 
-export function getCategoriesSuccess(categories) {
-    return {type: actionTypes.GET_CATEGORIES_SUCCESS, payload: categories}
+export function getPokemonsSuccess(Pokemons) {
+    return {type: actionTypes.GET_POKEMONS_SUCCESS, payload: Pokemons}
 }
 
-export function getCategories() {
+export function getPokemons() {
     let url = "https://pokeapi.co/api/v2/pokemon/"
     let pokemonListFromAx = [];
     let resultListFromAx = [];
@@ -31,7 +31,7 @@ export function getCategories() {
         })
 
         //console.log(resultListFromAx);
-        dispatch(getCategoriesSuccess(resultListFromAx));
+        dispatch(getPokemonsSuccess(resultListFromAx));
     } 
 
     return async function(dispatch) {
@@ -43,7 +43,7 @@ export function getCategories() {
                 getPokeList(pokemon, dispatch);
             })
         }).then(function() {
-            dispatch(getCategoriesSuccess(resultListFromAx));
+            dispatch(getPokemonsSuccess(resultListFromAx));
         })
     }
 }

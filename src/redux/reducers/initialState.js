@@ -1,4 +1,4 @@
 export default {
-    currentCategory: {id: '', categoryName: '', img: '', weight: ''},
-    categories: []
+    currentPokemon: {id: '', name: '', img: '', weight: ''},
+    pokemons: []
 }

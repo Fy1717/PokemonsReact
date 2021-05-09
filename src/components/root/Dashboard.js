@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'reactstrap'
-import CategoryList from '../categories/CategoryList'
+import PokemonList from '../pokemons/PokemonList'
 import ProductList from '../products/ProductList'
 
 export default class Dashboard extends Component {
@@ -9,7 +9,7 @@ export default class Dashboard extends Component {
             <div>
                 <Row>
                     <Col xs='6'>
-                        <CategoryList />
+                        <PokemonList />
                     </Col>
                     <Col xs='6'>
                         <ProductList />
