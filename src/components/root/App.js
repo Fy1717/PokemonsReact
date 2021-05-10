@@ -5,7 +5,7 @@ import Navi from '../navi/Navi'
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor: "#0b6e8b"}}>      
       <Container>
         <Navi />
         <br></br>

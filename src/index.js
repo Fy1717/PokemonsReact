@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './components/root/App';
 import reportWebVitals from './reportWebVitals';
-import { Provider } from 'react-redux'
-import configureStore from './redux/reducers/configureStore'
+import { Provider } from 'react-redux';
+import configureStore from './redux/reducers/configureStore';
+import 'alertifyjs/build/css/alertify.min.css' ;
 
 const store = configureStore();
 

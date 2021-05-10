@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'reactstrap'
 import PokemonList from '../pokemons/PokemonList'
-import ProductList from '../products/ProductList'
+import PokemonDetails from '../pokemon/PokemonDetails'
 
 export default class Dashboard extends Component {
     render() {
@@ -12,7 +12,7 @@ export default class Dashboard extends Component {
                         <PokemonList />
                     </Col>
                     <Col xs='6'>
-                        <ProductList />
+                        <PokemonDetails />
                     </Col>
                 </Row>
             </div>

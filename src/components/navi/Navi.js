@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Collapse,
   Navbar,
   NavbarToggler,
   NavbarBrand,
@@ -11,7 +10,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
 } from 'reactstrap';
 
 const Navi = (props) => {
@@ -21,13 +19,13 @@ const Navi = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">POKEMONS</NavbarBrand>
+      <Navbar color="light" light expand >
+        <img style={{marginLeft:"38%", width:"260px", height:"100px"}} src="https://www.nicepng.com/png/detail/353-3532398_pokemon-logo-symbol-vector-free-download-ravensburger-pokemon.png" />
+
         <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav navbar>
+          <Nav navbar style={{marginLeft:"10%"}}>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">Favorites</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/Fy17">Source</NavLink>
@@ -51,7 +49,6 @@ const Navi = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-        </Collapse>
       </Navbar>
     </div>
   );
