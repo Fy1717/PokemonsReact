@@ -1,10 +1,39 @@
-# Getting Started with Create React App
+# React - Pokemon Project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2> Welcome to Pokemons World! 👋 </h2>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+<b>You can see last status of the project</b>
+
+<a href="https://www.loom.com/share/83c5792f6bbe42e2bd628333407986d0"> <p>DEMO VIDEO</p> <img style="max-width:300px;" src="https://64.media.tumblr.com/tumblr_luy0tkxuUy1qahs0uo1_500.gifv"> </a>
+
+<hr>
+
+
+<h3> Please Contact Me for More Information </h3>
+
+[<img align="center" alt="tassiaaccioly | LinkedIn" width="22px" src="./src/readmeImages/linkedin.svg" />][linkedin] <b>LINKEDIN</b>
+[<img align="center" alt="itsmetherogue | Twitter" width="22px" src="./src/readmeImages/twitter.svg" />][twitter] <b>TWITTER</b>
+[<img align="center" alt="tassia.accioly | Gmail" width="22px" src="./src/readmeImages/gmail.svg" />][gmail] <b>GMAIL</b>
+[<img align="center" alt="tassiaaccioly | Medium" width="22px" src="./src/readmeImages/youtube.png" />][youtube] <b>YOUTUBE</b>
+
+[linkedin]: https://www.linkedin.com/in/furkan-y%C4%B1ld%C4%B1z-90342a138/
+[twitter]: https://www.twitter.com/frkann17/
+[gmail]: mailto:frknyldz8489@gmail.com
+[youtube]: https://www.youtube.com/channel/UCPJJbWeR2r1Rs_FWQhsPaFw
+
+<hr>
+
+<h3> Technologies </h3>
+<h5> React </h5>
+<h5> Redux </h5>
+<h5> ReactStrap - Bootstrap - CSS</h5>
+<h5> Axios </h5>
+
+
+
+<hr>
 
 ### `npm start`
 
@@ -14,57 +43,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

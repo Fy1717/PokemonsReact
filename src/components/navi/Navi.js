@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -28,7 +27,7 @@ const Navi = (props) => {
               <NavLink href="/components/">Favorites</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/Fy17">Source</NavLink>
+              <NavLink href="https://github.com/Fy1717/PokemonsReact">Source</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -45,6 +44,10 @@ const Navi = (props) => {
                 <DropdownItem divider />
                 <DropdownItem>
                   Thunk
+                </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>
+                  Axios
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
